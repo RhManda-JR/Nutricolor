@@ -1,0 +1,13 @@
+/* 1️⃣ Import Google Font Playwrite ES */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* 2️⃣ Import Tailwind CSS and DaisyUI */
+@import "tailwindcss";
+@plugin "daisyui"{
+    themes: all;
+};
+
+@theme{
+    --font-pacifico: 'Pacifico', sans-serif;
+    --font-lobsterTwo: 'Lobster', sans-serif;
+}
